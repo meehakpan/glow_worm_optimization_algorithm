@@ -1,6 +1,6 @@
 # glow_worm_optimization_algorithm
 
-5. Assumptions of the Glowworm Swarm Optimization.
+Assumptions of the Glowworm Swarm Optimization.
 The Assumption:
 This algorithm is derived from natural glowworm’s activities in the night, the glow worm exercise in groups, they interact with each other by one’s luciferin. If the glowworm emits more light, it can attract more glowworms towards it.
 The GSO algorithm makes the agents glow at intensities approximately proportional to the function value being optimized 
@@ -18,7 +18,7 @@ The decision domain enables selective neighbor interactions and aids in formatio
 Each glowworm is attracted by the brighter glow of other glowworms in the neighborhood 
 Agents in GSO depend only on information available in their neighborhood to make decisions
 
-7.  Luciferin and how it is modified by agents?
+Luciferin and how it is modified by agents?
 Luciferin is a light-emitting compound, used for the firefly is a value that is used in GLOWworm swarm optimization Each glowworm selects, using a probabilistic mechanism, a neighbor that has a luciferin value higher than its own and moves toward it.. which is responsible for the characteristic yellow light emission from many firefly species.
 Each glowworm selects, using a probabilistic mechanism, a neighbor that has a luciferin value higher than its own and moves toward it • These movements (based only on local information and selective neighbor interactions) enable the swarm of glowworms to partition into disjoint subgroups that steer toward, and meet at, multiple optima of a given multimodal function
 GSO starts by placing a population of n glow worms randomly in the search space so that they are well dispersed 
